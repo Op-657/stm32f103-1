@@ -483,14 +483,9 @@
               <FilePath>..\driver\usart\bsp_usart.c</FilePath>
             </File>
             <File>
-              <FileName>HMI_Base_Fun.c</FileName>
+              <FileName>bsp_usart_to_hmi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\usart_hmi\hmi\HMI_Base_Fun.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_usart_hmi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\driver\usart_hmi\bsp_usart_hmi.c</FilePath>
+              <FilePath>..\driver\usart_hmi\bsp_usart_to_hmi.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -511,6 +506,11 @@
               <FileName>stm32f10x_it.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\user\stm32f10x_it.c</FilePath>
+            </File>
+            <File>
+              <FileName>USART_HMI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\driver\usart_hmi\USART_HMI.c</FilePath>
             </File>
           </Files>
         </Group>
